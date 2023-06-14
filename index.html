@@ -4,10 +4,46 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.js"></script>
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Deniton</title>
 </head>
 <body>
-Denition
+  <div class="navigation">
+    <div class="container menu">
+      <img class="logo" src="./Logo.png" alt="Deniton logo">
+      <div class="menu-right">
+        <span class="gone">GONE FISHING</span>
+        <p class="back-soon">Will be back soon with a full bucket of fish</p>
+      </div>
+    </div>
+  </div>
+  <main class="page-content">
+    <div class="container">
+      <section class="hero">
+        <div class="row">
+          <div class="col-8 box sea-view"></div>
+          <div class="col-4 box mint-box">
+            <h1>DENITON SALES LP</h1>
+            <p>Registration number LP19626001</p>
+            <p>md@denition.com</p>
+            <br><br>
+            <p>Deniton Sales operates a fleet of trawlers of the coast of Angola and organizes fishing, processing, distribution and logistics for the produced goods and also trades in high quality frozen fish worldwide.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script>
+    $('.sea-view').ripples({
+      resolution: 512,
+      dropRadius: 20,
+      perturbance: 0.04,
+    });
+  </script>
 </body>
 </html>
