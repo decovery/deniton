@@ -378,6 +378,10 @@ body {
   border-radius: 48px;
 }
 
+.box>canvas {
+  border-radius: 48px;
+}
+
 .col-8 {
   flex-basis: calc(80% - 16px);
 }
